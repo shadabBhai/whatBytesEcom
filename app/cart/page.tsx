@@ -39,7 +39,7 @@ const CartPage = () => {
     <>
       <Header onSearch={(term) => console.log("Search from Cart:", term)} />
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-semibold text-slate-800 mb-8">
+        <h1 className="text-3xl font-semibold text-slate-200 mb-8">
           Your Shopping Cart ({cartCount} items)
         </h1>
         <div className="grid lg:grid-cols-3 gap-8">
