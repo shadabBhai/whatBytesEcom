@@ -155,7 +155,7 @@ function HomePageContent() {
           className="flex items-end lg:hidden text-start text-2xl font-semibold "
           size={28}
         />
-        <div className="text-xl lg:text-2xl font-semibold text-slate-800 my-6">
+        <div className="text-xl lg:text-2xl font-semibold text-slate-200 my-6">
           Products List
         </div>
         <div className="flex flex-col lg:flex-row gap-8">

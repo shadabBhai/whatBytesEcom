@@ -106,8 +106,8 @@ const ProductDetailPage = () => {
                   type="number"
                   id="quantity"
                   value={quantity}
-                  readOnly // Or onChange if you want direct input
-                  className="w-12 text-center border-none focus:ring-0"
+                  readOnly
+                  className="w-12 text-center text-black border-none focus:ring-0"
                 />
                 <button
                   onClick={() => handleQuantityChange(1)}

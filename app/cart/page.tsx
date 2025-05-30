@@ -78,7 +78,7 @@ const CartPage = () => {
                   >
                     <MinusCircle size={22} />
                   </button>
-                  <span className="w-10 text-center font-medium">
+                  <span className="w-10 text-center font-medium text-black">
                     {item.quantity}
                   </span>
                   <button
